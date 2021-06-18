@@ -58,7 +58,7 @@ Aku adalah bot musik telegram yang akan menemani mu di voice chat group, Jika in
                         "👥 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "⚡ Instagram", url=f"https://www.instagram.com/ikyyy_35/")
                 ]
             ]
         ),
@@ -114,7 +114,7 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
+                    text='⚡ Instagram', url=f"https://www.instagram.com/ikyyy_35/"
                 )
             ],
             [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
@@ -164,7 +164,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/MusikManagement/11"
                     )
                 ]
             ]
@@ -186,7 +186,7 @@ async def reload(client: Client, message: Message):
                         "Group Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url=f"https://t.me/mrismanaziz"
+                        "Owner", url=f"https://t.me/boyfriendnice"
                     )
                 ]
             ]
