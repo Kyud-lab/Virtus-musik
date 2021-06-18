@@ -29,18 +29,18 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti :
+Aku adalah bot musik telegram yang akan menemani mu di voice chat group, Jika ingin menggunakan invite aku dan beri izin admin dan jangan lupa asisstantnya jika ada kendala bisa chat pemilik nya.
 ┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
-┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+┣ > 𝙹𝙰𝙽𝙶𝙰𝙽 𝙻𝙸𝚂𝚃 𝙻𝙰𝙶𝚄 𝚂𝙴𝙺𝙰𝙻𝙸𝙶𝚄𝚂 𝚃𝙰𝙺𝚄𝚃 𝙴𝚁𝙾𝚁.
+┣ > 𝙹𝙸𝙺𝙰 𝙷𝙰𝙱𝙸𝚂 𝙳𝙸𝙼𝙰𝚃𝙸𝙺𝙰𝙽 𝙿𝙰𝙺𝚂𝙰 𝙹𝙰𝙽𝙶𝙰𝙽 
+    𝙻𝙰𝙽𝙶𝚂𝚄𝙽𝙶 𝙿𝙻𝙰𝚈 𝙻𝙰𝙶𝚄 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙴𝙱𝙴𝙽𝚃𝙰𝚁 
+    𝙹𝙸𝙺𝙰 𝚃𝙸𝙳𝙰𝙺, 𝙰𝚂𝙸𝚂𝚃𝙴𝙽 𝚃𝙸𝙳𝙰𝙺 𝙰𝙺𝙰𝙽 𝙽𝙰𝙸𝙺.
 ┗━━━━━━━━━━━━━━
-❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
-━━━━━━━━━━━━━━━
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+🤵𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 : [Yamete](https://t.me/boyfriendnice)
+☘️𝓣𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 : [Grup Support](https://t.me/CariTemanSntuy)
+━━━━━━━━━━━━━━
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @SkyMusic_Groupbot
+𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantSkyMusic
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
@@ -53,9 +53,9 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "📢 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "👥 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -105,11 +105,11 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text='💬 Channel Updates',
+                    text='📢 Channel Updates',
                     url=f"https://t.me/{UPDATES_CHANNEL}",
                 ),
                 InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
+                    text='👥 Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
                 ),
             ],
             [
