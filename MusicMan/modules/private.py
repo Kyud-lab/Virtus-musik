@@ -31,16 +31,16 @@ async def start_(client: Client, message: Message):
         f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
 Aku adalah bot musik telegram yang akan menemani mu di voice chat group, Jika ingin menggunakan invite aku dan beri izin admin dan jangan lupa asisstantnya jika ada kendala bisa chat pemilik nya.
 ┏━━━━━━━━━━━━━━
-┣ > 𝙹𝙰𝙽𝙶𝙰𝙽 𝙻𝙸𝚂𝚃 𝙻𝙰𝙶𝚄 𝚂𝙴𝙺𝙰𝙻𝙸𝙶𝚄𝚂 𝚃𝙰𝙺𝚄𝚃 𝙴𝚁𝙾𝚁.
-┣ > 𝙹𝙸𝙺𝙰 𝙷𝙰𝙱𝙸𝚂 𝙳𝙸𝙼𝙰𝚃𝙸𝙺𝙰𝙽 𝙿𝙰𝙺𝚂𝙰 𝙹𝙰𝙽𝙶𝙰𝙽 
-    𝙻𝙰𝙽𝙶𝚂𝚄𝙽𝙶 𝙿𝙻𝙰𝚈 𝙻𝙰𝙶𝚄 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙴𝙱𝙴𝙽𝚃𝙰𝚁 
-    𝙹𝙸𝙺𝙰 𝚃𝙸𝙳𝙰𝙺, 𝙰𝚂𝙸𝚂𝚃𝙴𝙽 𝚃𝙸𝙳𝙰𝙺 𝙰𝙺𝙰𝙽 𝙽𝙰𝙸𝙺.
+┣ > Memutar Musik
+┣ > Mendownload Lagu
+┣ > Jangan Play Lagu Sekaligus Rentan Eror
+┣ > Mencari Lagu Yang Ingin Di Putar
 ┗━━━━━━━━━━━━━━
 🤵𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 : [Yamete](https://t.me/boyfriendnice)
 ☘️𝓣𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 : [Grup Support](https://t.me/CariTemanSntuy)
 ━━━━━━━━━━━━━━
-𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @SkyMusic_Groupbot
-𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantSkyMusic
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @Virtualsong_bot
+𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantMusicVirtual
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
